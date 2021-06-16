@@ -1,3 +1,13 @@
+:root {
+  --dark-bg-color: #1f232c;
+  --light-bg-color: #af5a5d;
+  --accent-light-color: #e0deef;
+}
+
+
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,8 +22,7 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
-  /* grid-template-rows: repeat(2, 1fr); */
+  border-radius: 1em;
 }
 
 .features-cards--circle {
