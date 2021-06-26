@@ -29,17 +29,26 @@ body {
 }
 
 .nav {
-  position: fixed;
-  display: inline-block;
+  /* position: fixed; */
 }
 
 .nav_list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .nav__list-item {
   list-style: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.nav__list-item:not(:first-child):before {
+    content: " | ";
+}
+
+.nav__list-item + .nav__list-item {
+  margin-left: .5em;
 }
 
 .nav__link {
@@ -108,4 +117,10 @@ body {
 
 .card--square-title{
   display: inline-flex;
+}
+
+
+.subscribe{
+  display: block;
+
 }
