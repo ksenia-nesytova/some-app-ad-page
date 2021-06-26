@@ -58,7 +58,7 @@ h2 {
     content: " | ";
 }
 
-.nav__list-item + .nav__list-item {
+.nav .nav__list-item + .nav__list-item {
   margin-left: .5em;
 }
 
