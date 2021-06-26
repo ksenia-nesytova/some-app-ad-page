@@ -15,6 +15,11 @@ body {
   margin: 0 1em;
 }
 
+h2 {
+  text-transform: uppercase;
+
+}
+
 .intro {
   background: var(--dark-bg-color);
   color: white;
@@ -66,12 +71,15 @@ body {
 }
 
 
-.features-cards {
-  margin: 0 auto;
+
+.features {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  border-radius: 1em;
   background-color: white;
+  margin: 0 auto;
+
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
 }
 
 .features-cards--circle {
@@ -119,8 +127,15 @@ body {
   display: inline-flex;
 }
 
-
 .subscribe{
   display: block;
+  margin: 0 auto;
+  background-color: white;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
 
+.footer{
+  display: flex;
+  background: var(--dark-bg-color);
 }
