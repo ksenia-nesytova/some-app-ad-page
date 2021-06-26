@@ -48,7 +48,7 @@ h2 {
   color: white;
 }
 
-.nav__list-item:not(:first-child):before {
+.nav__list-item__divider:not(:first-child):before {
     content: " | ";
 }
 
@@ -137,7 +137,7 @@ h2 {
   text-align: center;
 
   background-color: white;
-  
+
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
 }
@@ -145,4 +145,16 @@ h2 {
 .footer{
   display: flex;
   background: var(--dark-bg-color);
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
 }
