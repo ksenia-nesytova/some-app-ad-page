@@ -37,6 +37,12 @@ h2 {
   /* position: fixed; */
 }
 
+.nav .nav__link:hover,
+.nav .nav__link:focus {
+  border-top: var(--light-bg-color) .2em solid;
+  text-decoration: none;
+}
+
 .nav_list {
   display: flex;
   justify-content: flex-end;
