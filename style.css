@@ -12,7 +12,7 @@
 
 body {
   background-color: var(--dark-bg-color);
-  margin: 0 1em;
+  margin: 0 1.5em;
 }
 
 h1, h2, h3 {
@@ -24,6 +24,20 @@ h1, h2, h3 {
   background: var(--dark-bg-color);
   color: white;
   text-align: left;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.ghost-btn {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  border-radius: .3em;
+  padding: .5em;
+  margin-top: .5em;
+  text-decoration: none;
 }
 
 .logo{
@@ -171,8 +185,21 @@ h1, h2, h3 {
   color: white;
 }
 
-
-.footer__list {
-  display: flex;
-  flex-direction: column;
+.footer_list .nav__list-item {
+  border-bottom: white 1px solid;
+  margin: 1em 0.9em;
 }
+
+.footer-section h3 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+.footer-list__title {
+  margin: 1em 0.9em;
+
+}
+/* .footer-section p {
+  margin: 1em 0.9em;
+} */
