@@ -36,6 +36,28 @@ p {
   max-width: 50ch;
 }
 
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+/* <i class="fas fa-mobile-alt"></i> */
+.deco-icons {
+  display: inline-flex;
+  color: black;
+  align-items: flex-end;
+}
+.deco-icons .fa-mobile-alt {
+  font-size: 15em;
+  margin-right: -1em;
+  color: white;
+  z-index: 2;
+}
+
+.fa-mobile {
+  font-size: 30em;
+    z-index: -2;
+}
+
 .intro {
   background: var(--dark-bg-color);
   color: white;
