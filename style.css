@@ -10,6 +10,9 @@
   margin: 0;
   padding: 0;
   font-family: Georgia;
+
+  line-height: 1.5;
+  letter-spacing: .05em;
 }
 
 body {
@@ -45,6 +48,7 @@ p {
   display: inline-flex;
   color: black;
   align-items: flex-end;
+  padding-bottom: 2em;
 }
 .deco-icons .fa-mobile-alt {
   font-size: 15em;
