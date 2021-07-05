@@ -42,32 +42,15 @@ p {
 .about {
   display: flex;
   justify-content: space-between;
-}
-/* <i class="fas fa-mobile-alt"></i> */
-.deco-icons {
-  display: inline-flex;
-  color: black;
-  align-items: flex-end;
+  align-items: center;
   padding-bottom: 2em;
-}
-.deco-icons .fa-mobile-alt {
-  font-size: 15em;
-  margin-right: -1em;
-  color: white;
-  z-index: 2;
-}
-
-.fa-mobile {
-  font-size: 30em;
-    z-index: -2;
 }
 
 .intro {
   background: var(--dark-bg-color);
   color: white;
   text-align: left;
-  padding-top: 5em;
-  padding-bottom: 5em;
+
   font-size: 1.5em;
 
 }
@@ -80,6 +63,24 @@ p {
 
 .intro p {
   letter-spacing: 0.15em;;
+}
+
+.deco-icons {
+  display: inline-flex;
+  color: black;
+  align-items: flex-end;
+}
+
+.deco-icons .fa-mobile-alt {
+  font-size: 15em;
+  margin-right: -1em;
+  color: white;
+  z-index: 2;
+}
+
+.fa-mobile {
+  font-size: 30em;
+    z-index: -2;
 }
 
 .ghost-btn {
