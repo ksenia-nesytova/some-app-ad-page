@@ -68,6 +68,18 @@ p {
   text-align: left;
   padding-top: 5em;
   padding-bottom: 5em;
+  font-size: 1.5em;
+
+}
+
+.intro h2 {
+  font-size: 2em;
+  text-transform: inherit;
+  margin-bottom: .5em;
+}
+
+.intro p {
+  letter-spacing: 0.15em;;
 }
 
 .ghost-btn {
@@ -78,7 +90,7 @@ p {
   font-size: 1.5em;
   border-radius: .3em;
   padding: .5em;
-  margin-top: .5em;
+  margin-top: 1em;
   text-decoration: none;
 }
 
@@ -162,7 +174,9 @@ margin-top: -7em;
   color: var(--accent-light-color);
 }
 
-
+#home {
+  font-weight: bold;
+color: white;}
 
 .features {
   display: grid;
