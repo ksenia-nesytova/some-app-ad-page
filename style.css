@@ -271,7 +271,8 @@ color: white;}
   content: "";
   position: absolute;
   margin: 0 auto;
-  width: 85%;
+  max-width: 1300px;
+  width: 75%;
   border-bottom: 2px solid;
   border-image:linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(154,154,154,0.6026785714285714) 48%, rgba(255,255,255,0.7371323529411764) 100%)
   100% 0 100% 0/2px 0 2px 0 stretch;
