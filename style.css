@@ -38,6 +38,7 @@ main {
 
 p {
   max-width: 50ch;
+  display: inline-flex;
 }
 
 
@@ -281,7 +282,11 @@ color: white;}
   100% 0 100% 0/2px 0 2px 0 stretch;
 /* should be the height of the inner div */
   padding-bottom: 15em;
+}
 
+.subscribe-text {
+  color: var(--accent-dark-color);
+  text-align: center;
 }
 
 
@@ -374,7 +379,6 @@ color: white;}
 }
 
 @media screen and (min-width: 800px) {
-
   .card--circle {
     max-width: 420px;
     max-height: 420px;
@@ -393,9 +397,14 @@ color: white;}
       margin-top: -1.5em;
     }
 
-    .nav_list {
-      flex-direction: row;
+    .subscribe .btn-default {
+      margin-left: -.5em;
     }
+
+    .subscribe-text {
+      margin-right: 1.5em;
+    }
+
 
     .footer {
       flex-direction: row;
@@ -423,7 +432,14 @@ color: white;}
     }
 }
 
+@media screen and (min-width: 900px) {
+  .nav_list {
+    flex-direction: row;
+  }
+}
+
 @media screen and (min-width: 1200px) {
+  
     .features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
