@@ -210,9 +210,6 @@ color: white;}
   border-radius: 50%;
   background: var(--light-bg-color);
 
-  /* width: 100%;
-  padding-bottom: 100%; */
-
   max-width: 340px;
   max-height: 340px;
 
@@ -282,6 +279,7 @@ color: white;}
   100% 0 100% 0/2px 0 2px 0 stretch;
 /* should be the height of the inner div */
   padding-bottom: 15em;
+  z-index: -1;
 }
 
 .subscribe-text {
@@ -439,7 +437,7 @@ color: white;}
 }
 
 @media screen and (min-width: 1200px) {
-  
+
     .features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
