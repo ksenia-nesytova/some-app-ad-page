@@ -122,9 +122,17 @@ p {
 .navbar {
   display: flex;
   justify-content: space-between;
-
 }
+
+.menu-btn {
+  display: inline-flex;
+  /* float: right; */
+  color: white;
+  transform: rotate(-90deg);
+}
+
 .nav {
+  display: none;
   width: 100%;
   align-self: center;
   border-bottom: 1px solid var(--accent-dark-color);
@@ -431,6 +439,14 @@ color: white;}
 }
 
 @media screen and (min-width: 900px) {
+.menu-btn {
+  display: none;
+}
+
+  .nav {
+    display: block;
+  }
+
   .nav_list {
     flex-direction: row;
   }
@@ -438,7 +454,7 @@ color: white;}
 
 @media screen and (min-width: 1200px) {
 
-    .features {
+  .features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
@@ -452,6 +468,5 @@ color: white;}
   .deco-icons {
     display: inline-flex;
   }
-
 
 }
