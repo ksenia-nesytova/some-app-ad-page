@@ -16,10 +16,11 @@
 }
 
 body {
+  width: 100%;
   max-width: 1500px;
   background-color: var(--dark-bg-color);
   margin: 0 auto;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 
@@ -61,6 +62,7 @@ p {
 .intro h2 {
   font-size: 2em;
   text-transform: inherit;
+  margin-top: .5em;
   margin-bottom: .5em;
 }
 
