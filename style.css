@@ -133,6 +133,7 @@ p {
   color: white;
   transform: rotate(-90deg);
   transform-origin: top right;
+  margin-right: 2em;
 }
 
 .nav {
