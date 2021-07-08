@@ -31,7 +31,7 @@ h1, h2, h3 {
 
 h1 {
   margin-bottom: .5em;
-  font-size: 2.625em;
+  font-size: 2em;
 }
 
 main {
@@ -108,7 +108,7 @@ p {
 /* LOGO */
 .logo{
   background: var(--light-bg-color);
-  max-width: 300px;
+  max-width: 200px;
   border-radius: 1em;
   padding: 4em;
   text-align: center;
@@ -396,6 +396,14 @@ color: white;}
 @media screen and (min-width: 800px) {
   body {
     font-size: 1em;
+  }
+
+  h1 {
+    font-size: 2.625;
+  }
+
+  .logo {
+    max-width: 300px;
   }
 
   .card--circle {
