@@ -129,6 +129,7 @@ p {
   /* float: right; */
   color: white;
   transform: rotate(-90deg);
+  transform-origin: top right;
 }
 
 .nav {
@@ -139,10 +140,14 @@ p {
   padding-bottom: 4em;
 }
 
+.visible {
+  display: inline-block;
+}
+
 .nav .nav__link:hover,
 .nav .nav__link:focus {
-  border-top: var(--light-bg-color) .2em solid;
   text-decoration: none;
+  border-bottom: 1px solid var(--accent-light-color);
 }
 
 .nav .nav__link:visited {
@@ -439,6 +444,12 @@ color: white;}
 }
 
 @media screen and (min-width: 900px) {
+
+  .nav .nav__link:hover,
+  .nav .nav__link:focus {
+    border-top: var(--light-bg-color) .2em solid;
+  }
+
 .menu-btn {
   display: none;
 }
