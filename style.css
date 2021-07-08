@@ -31,7 +31,7 @@ h1, h2, h3 {
 
 h1 {
   margin-bottom: .5em;
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 main {
@@ -108,7 +108,7 @@ p {
 /* LOGO */
 .logo{
   background: var(--light-bg-color);
-  max-width: 200px;
+  max-width: 150px;
   border-radius: 1em;
   padding: 4em;
   text-align: center;
@@ -116,8 +116,8 @@ p {
   margin-top: -1em;
 }
 
-.logo-overlay {
-  margin-top: -7em;
+#logo-sub{
+  display: none;
 }
 
 
@@ -370,6 +370,17 @@ color: white;}
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .logo {
+    max-width: 200px;
+  }
+
+  #logo-sub{
+    display: inline-block;
+  }
 
   .features-cards--circle {
     display: grid;
