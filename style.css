@@ -43,6 +43,9 @@ p {
   display: inline-flex;
 }
 
+ul {
+  padding-left: 0;
+}
 
 /* ABOUT */
 .about {
@@ -342,7 +345,7 @@ p {
 .footer_list .nav__link {
   color:  var(--accent-dark-color);
   text-transform: capitalize;
-  margin: 1em 0.9em;
+  /* margin: 1em 0.9em; */
   text-align: center;
 }
 
@@ -402,6 +405,12 @@ p {
   .features-cards--square {
       grid-template-columns: repeat(2, 1fr);
   }
+
+  .footer_list .nav__link {
+      margin: 0 1em;
+
+  }
+
 
 }
 
