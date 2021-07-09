@@ -43,10 +43,6 @@ p {
   display: inline-flex;
 }
 
-ul {
-  padding-left: 0;
-}
-
 /* ABOUT */
 .about {
   display: flex;
@@ -308,7 +304,6 @@ ul {
   text-align: center;
 }
 
-
 /* FOOTER */
 .footer{
   display: flex;
@@ -371,6 +366,10 @@ ul {
   margin: 1em 0.9em;
 }
 
+#socialise .nav__link {
+  margin: 0 1em;
+
+}
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 600px) {
