@@ -127,12 +127,12 @@ p {
 }
 
 .menu-btn {
-  display: inline-flex;
-  /* float: right; */
+  display: flex;
   color: white;
   transform: rotate(-90deg);
   transform-origin: top right;
   margin-right: 2em;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -144,7 +144,7 @@ p {
 }
 
 .visible {
-  display: inline-block;
+  display: flex;
 }
 
 .nav .nav__link:hover,
