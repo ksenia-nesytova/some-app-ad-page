@@ -119,7 +119,6 @@ p {
   display: none;
 }
 
-
 /* NAVIGATION */
 .navbar {
   display: flex;
@@ -128,11 +127,12 @@ p {
 
 .menu-btn {
   display: flex;
+  position: absolute;
   color: white;
-  transform: rotate(-90deg);
-  transform-origin: top right;
-  margin-right: 2em;
-  overflow-x: hidden;
+  transform: rotate(90deg);
+  transform-origin: center;
+  margin-left: 85%;
+  margin-top: 1.5em;
 }
 
 .nav {
@@ -140,7 +140,8 @@ p {
   width: 100%;
   align-self: center;
   border-bottom: 1px solid var(--accent-dark-color);
-  padding-bottom: 4em;
+  padding-bottom: 1em;
+  margin-top: 2em;
 }
 
 .visible {
@@ -161,6 +162,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-left: 1em;
 }
 
 .nav .nav__link {
@@ -322,6 +324,7 @@ p {
   flex: 1;
   color: white;
   align-items: center;
+  padding: 1em;
 }
 
 .footer_list {
@@ -493,10 +496,12 @@ p {
 
   .nav {
     display: block;
+    margin-top: -2em;
   }
 
   .nav_list {
     flex-direction: row;
+    margin-left: 0;
   }
 }
 
