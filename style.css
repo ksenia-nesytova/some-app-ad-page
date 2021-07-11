@@ -233,6 +233,7 @@ p {
   max-height: 340px;
 
   padding: 25% 20% ;
+  margin-bottom: 0.5em;
 }
 
 .card--circle-body {
@@ -369,9 +370,8 @@ p {
   margin: 1em 0.9em;
 }
 
-#socialise .nav__link {
-  margin: 0 1em;
-
+.nav__link {
+  margin: 0 .2em;
 }
 
 /* MEDIA QUERIES */
@@ -393,11 +393,7 @@ p {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1.5em;
-  }
-
-  .card--circle {
-    max-width: 250px;
-    max-height: 250px;
+    justify-items: center;
   }
 
   .card--circle-body {
@@ -410,10 +406,7 @@ p {
 
   .footer_list .nav__link {
       margin: 0 1em;
-
   }
-
-
 }
 
 @media screen and (min-width: 800px) {
@@ -430,8 +423,8 @@ p {
   }
 
   .card--circle {
-    max-width: 420px;
-    max-height: 420px;
+    max-width: 490px;
+    max-height: 490px;
   }
 
   .card--circle-body {
@@ -478,7 +471,7 @@ p {
 
     .footer_list .nav__list-item {
       border-bottom:  var(--accent-dark-color) 1px solid;
-      margin: 1em 0.9em;
+      margin: 0.5em 0;
     }
 }
 
