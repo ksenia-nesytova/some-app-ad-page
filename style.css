@@ -218,7 +218,11 @@ p {
 
 /* Circle cards */
 .features-cards--circle {
+  display: flex;
+  flex-direction: column;
   padding-bottom: 2em;
+  align-items: center;
+
 }
 
 .card--circle {
@@ -390,10 +394,9 @@ p {
 
   .features-cards--circle {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1.5em;
-    justify-items: center;
   }
 
   .card--circle-body {
@@ -423,8 +426,8 @@ p {
   }
 
   .card--circle {
-    max-width: 490px;
-    max-height: 490px;
+    max-width: 480px;
+    max-height: 480px;
   }
 
   .card--circle-body {
