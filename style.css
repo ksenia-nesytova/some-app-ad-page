@@ -349,7 +349,6 @@ p {
 .footer_list .nav__link {
   color:  var(--accent-dark-color);
   text-transform: capitalize;
-  /* margin: 1em 0.9em; */
   text-align: center;
 }
 
@@ -365,6 +364,11 @@ p {
 .footer-section h3 {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.footer-section p {
+    align-self: flex-start;
+    display: flex;
 }
 
 .footer h3 {
@@ -407,6 +411,7 @@ p {
   .footer_list .nav__link {
       margin: 0 1em;
   }
+
 }
 
 @media screen and (min-width: 800px) {
