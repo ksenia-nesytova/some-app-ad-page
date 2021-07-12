@@ -263,6 +263,7 @@ p {
   padding: .5em .5em;
   background-color: black;
   color: white;
+  margin-right: 0.5em;
 }
 
 .card--square-title{
@@ -370,10 +371,6 @@ p {
   color: white;
 }
 
-.footer-list__title {
-  margin: 1em 0.9em;
-}
-
 .nav__link {
   margin: 0 .2em;
 }
@@ -394,7 +391,7 @@ p {
 
   .features-cards--circle {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1.5em;
   }
