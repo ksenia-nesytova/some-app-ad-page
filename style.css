@@ -482,6 +482,10 @@ p {
 
 @media screen and (min-width: 900px) {
 
+  #home {
+    padding-left: 0;
+  }
+
   .nav .nav__link:hover,
   .nav .nav__link:focus {
     border-bottom: none;
@@ -501,6 +505,11 @@ p {
     flex-direction: row;
     margin-left: 0;
   }
+  
+  .nav .nav__list-item {
+    padding-bottom: 2em;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
